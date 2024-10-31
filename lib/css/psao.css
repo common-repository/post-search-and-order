@@ -1,0 +1,87 @@
+/**
+共通
+*/
+.psao {
+	/* display: inline-block; */
+	margin: 2px 3px;
+}
+
+.psao_select {
+	min-width: 11em;
+}
+
+.psao_form {
+	width: 100%;
+}
+
+/*チェックボックス、ラジオボタン*/
+.psao_toglewrap {
+	display: inline-block;
+}
+
+.psao_toglewrap .psao_showbutton {
+	padding: 4px;
+	border: solid 1px rgb(202, 202, 202);
+	display: table;
+	background-color: white;
+}
+
+.psao_toglewrap .psao_showbutton:hover {
+	opacity: .9;
+	cursor: pointer;
+}
+
+.psao_checkbox label {
+	font-size: .9em;
+	padding: 0 3px;
+	display: inline-block;
+	border: solid 1px rgb(202, 202, 202);
+	margin: 3px;
+	background-color: white;
+}
+
+.psao_checkbox label:last-child {
+	margin-right: 0;
+}
+
+.psao_hiddenwrap {
+	display: none;
+}
+
+/*セレクトボックス*/
+.select2-selection__rendered {
+	font-size: .9em;
+}
+
+.select2-results__options {
+	font-size: .85em;
+}
+
+.select2-container {
+	vertical-align: inherit !important;
+	max-width: 100%;
+}
+
+/*
+*個別
+*/
+.psao_formwrap {
+	background-color: white;
+	padding: 8px;
+}
+
+/*表示数変更*/
+.psao_postsnum-number {
+	max-width: 70px;
+}
+
+/*文字検索*/
+.psao_keywordsearch {
+	display: block;
+	margin: 1em 3px;
+}
+
+/*数字範囲検索*/
+.psao_keynumrange input {
+	max-width: 6em;
+}
